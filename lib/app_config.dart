@@ -5,14 +5,14 @@ var this_year = DateTime.now().year.toString();
 class AppConfig {
   static String copyright_text = "@ ActiveItZone " + this_year; //this shows in the splash screen
   static String app_name = "Active eCommerce"; //this shows in the splash screen
-  static String purchase_code = ""; //enter your purchase code for the app from codecanyon
+  static String purchase_code = "4799bb75-f827-42a7-9fa3-50555e5b03c8"; //enter your purchase code for the app from codecanyon
   //static String purchase_code = ""; //enter your purchase code for the app from codecanyon
 
   //configure this
   static const bool HTTPS = true;
 
   //configure this
-  static const DOMAIN_PATH = ""; //localhost
+  static const DOMAIN_PATH = "12tree.store"; //localhost
   //static const DOMAIN_PATH = "demo.activeitzone.com/ecommerce_flutter_demo"; //inside a folder
   //static const DOMAIN_PATH = "mydomain.com"; // directly inside the public folder
 
